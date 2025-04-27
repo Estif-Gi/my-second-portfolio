@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 * {
-  @apply transition-colors duration-700 dark:bg-allbg  
+  @apply transition-colors duration-700 dark:bg-allbg  bg-yellow-50
 }
+
+

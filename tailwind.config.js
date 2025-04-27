@@ -8,10 +8,13 @@ export default {
       colors: {
         "logobg" : "#D9D9D9",
         "navbg" :"#5F5D5D",
-        "allbg" :"#403F3F"
-      }
+        "allbg" :"#403F3F",
+        "tx" : "#BBB6B6"
+      },
+      
+
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-motion')],
 }
 
