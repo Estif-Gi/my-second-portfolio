@@ -16,7 +16,7 @@ const Theme = () => {
     } else {
         document.documentElement.classList.remove("dark");
         localStorage.setItem("theme", "light");
-      setImage("zigzag 3");
+        setImage("zigzag 3");
 
     }
     
@@ -39,12 +39,14 @@ const Theme = () => {
           alt="Zigzag"
         />
       </div>
+      
+
 
       <button
         onClick={toggleTheme}
-        className="absolute top-24 left-7 mt-2 dark:bg-yellow-50 bg-gray-900 text-white p-2 rounded-full font-bold dark:text-black flex justify-self-end "
+        className="absolute top-24 left-7 mt-2 md:text-2xl md:w-12 text-md w-10  dark:bg-yellow-50 bg-allbg text-white p-2 rounded-full font-bold dark:text-black flex justify-center "
       >
-        {isDark ? "🌙" : "🌞" }
+        {isDark ? "✹" : "☽" }
       </button>
       </>
     

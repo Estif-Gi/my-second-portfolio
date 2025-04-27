@@ -9,9 +9,9 @@ function App() {
 
   return (
     <>
-      <div>
       <Navbar/>
 
+      <div className=' flex justify-center sm:mb-14 mt-10'>
       <Home/>
       </div>
       
