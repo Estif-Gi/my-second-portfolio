@@ -28,6 +28,12 @@ const Theme = () => {
   return (
      <>
       <div>
+        <div className="hidden  md:flex justify-center">
+
+        <img src="../../images/down icon.png" 
+              className="w-28 -translate-y-12 motion-preset-oscillate motion-duration-1500" 
+              alt="down" />
+        </div>
         <img
           className="w-full bg-yellow-50"
           src={`/images/${img}.png`}
@@ -44,7 +50,7 @@ const Theme = () => {
 
       <button
         onClick={toggleTheme}
-        className="absolute top-24 left-7 mt-2 md:text-2xl md:w-12 text-md w-10  dark:bg-yellow-50 bg-allbg text-white p-2 rounded-full font-bold dark:text-black flex justify-center "
+        className="motion-preset-pop   absolute top-24 left-7 mt-2 md:text-2xl md:w-12 text-md w-10  dark:bg-yellow-50 bg-allbg text-white p-2 rounded-full font-bold dark:text-black flex justify-center "
       >
         {isDark ? "✹" : "☽" }
       </button>
