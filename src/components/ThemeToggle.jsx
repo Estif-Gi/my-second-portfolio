@@ -11,12 +11,12 @@ const Theme = () => {
     if (isDark) {
         document.documentElement.classList.add("dark");
         localStorage.setItem("theme", "dark");
-        setImage("zigzag 1");
+        setImage("dark");
 
     } else {
         document.documentElement.classList.remove("dark");
         localStorage.setItem("theme", "light");
-        setImage("zigzag 3");
+        setImage("light");
 
     }
     
@@ -39,11 +39,11 @@ const Theme = () => {
           src={`/images/${img}.png`}
           alt="Zigzag"
         />
-        <img
+        {/* <img
           className="w-full bg-yellow-50"
-          src={`/images/zigzag 2.png`}
+          src={`/images/Group 6 (6).png`}
           alt="Zigzag"
-        />
+        /> */}
       </div>
       
 
