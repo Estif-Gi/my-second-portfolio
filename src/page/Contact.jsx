@@ -15,7 +15,7 @@ const Contact = () => {
                     <IoCall size={50} color="gray"  className=''/> <a href="tel:+251931386887" className="dark:text-white hover:underline">: +251 931 386 887</a>
                 </div>
                 <div className="flex items-center gap-3 p-3">
-                    <FaLinkedin size={50} color="gray"  className=''/><a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="dark:text-white hover:underline">: linkedin.com/in/Estifanos Girma</a>
+                    <FaLinkedin size={50} color="gray"  className=''/><a href="https://www.linkedin.com/in/estif-girma-845a70320" target="_blank" rel="noopener noreferrer" className="dark:text-white hover:underline">: linkedin.com/in/Estifanos Girma</a>
                 </div>
                 <div className="flex items-center gap-3 p-3">
                     <FaTelegramPlane size={50} color="gray"  className=''/> <a href="https://t.me/E3s58f" target="_blank" rel="noopener noreferrer"  className="dark:text-white hover:underline">: https://t.me/E3s58f</a>
