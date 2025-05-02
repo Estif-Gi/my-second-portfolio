@@ -77,7 +77,7 @@ const Navbar = () => {
                 spy={true} 
                 smooth={true} 
                 duration={500} 
-                offset={-90}
+                offset={90}
                 onClick={()=>setMenu((e)=>(!e))}
 
             >
@@ -90,7 +90,7 @@ const Navbar = () => {
                 spy={true} 
                 smooth={true} 
                 duration={500} 
-                offset={-90}
+                offset={90}
                 onClick={()=>setMenu((e)=>(!e))}
 
             >
@@ -103,7 +103,7 @@ const Navbar = () => {
                 spy={true} 
                 smooth={true} 
                 duration={800} 
-                offset={-90}
+                offset={30}
                 onClick={()=>setMenu((e)=>(!e))}
 
             >
@@ -116,7 +116,7 @@ const Navbar = () => {
                 spy={true} 
                 smooth={true} 
                 duration={800} 
-                offset={-90}
+                offset={0}
                 onClick={()=>setMenu((e)=>(!e))}
 
             >
