@@ -69,7 +69,7 @@ const Navbar = () => {
        
         {menu && (
           <div 
-          className={` ${menu && "motion-preset-expand" || !menu && "motion-opacity-out-0"}  left-48 bg-opacity- w-32 text-center justify-self-end flex flex-col gap-2 overflow-hidden transition-all duration-500 ease-in-out p-4 m-3 mt-0.5 rounded-xl bg-lime-700 dark:bg-navbg text-white sm:hidden `}>
+          className={`motion-preset-expand  absolute right-5 top-[90px] z-50 w-32 text-center flex flex-col gap-2 overflow-hidden transition-all duration-300 ease-in-out p-4 rounded-xl bg-lime-700 dark:bg-navbg text-white sm:hidden`}>
             <Link 
                 activeClass="active" 
                 className="dark:bg-navbg bg-lime-700"
