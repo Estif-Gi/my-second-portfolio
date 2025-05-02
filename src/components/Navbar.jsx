@@ -11,10 +11,18 @@ const Navbar = () => {
 
             <h1 className="  rounded-xl pt-2 pb-2 pl-5 pr-5 dark:bg-logobg sm:text-lg md:text-2xl font-bold text-gray-900 dark:text- bg-lime-200">Est.G</h1>
             <div className="translate-x-24 hidden text-white bg-lime-700 dark:bg-navbg text-sm sm:flex md:text-xl sm:text-lg justify-between gap-3 sm:w-[50%]">
-                <a  className=" dark:bg-navbg bg-lime-700 hover:text-white text-logobg transform duration-75"
-                    href="#">
-                    About me
-                </a>
+            <Link 
+                className="hover:cursor-pointer dark:bg-navbg bg-lime-700 hover:text-white text-logobg transform duration-75"
+                activeClass="active" 
+                to="About me" 
+                spy={true} 
+                smooth={true} 
+                offset={50} 
+                duration={500} 
+                spyThrottle={500}
+            >
+                About Me
+            </Link>
             <Link 
                 className="hover:cursor-pointer dark:bg-navbg bg-lime-700 hover:text-white text-logobg transform duration-75"
                 activeClass="active" 
@@ -28,14 +36,30 @@ const Navbar = () => {
                 Projects
             </Link>
                 
-                <a  className="bg dark:bg-navbg bg-lime-700 hover:text-white text-logobg transform duration-75"
-                    href="#">
+            <Link 
+                className="hover:cursor-pointer dark:bg-navbg bg-lime-700 hover:text-white text-logobg transform duration-75"
+                activeClass="active" 
+                to="contact" 
+                spy={true} 
+                smooth={true} 
+                offset={50} 
+                duration={500} 
+                spyThrottle={500}
+            >
                 Contact
-                </a>
-                <a  className="dark:bg-navbg bg-lime-700 pb-2 hover:text-white text-logobg transform duration-75"
-                    href="#">
-                    Blog
-                </a>
+            </Link>
+            <Link 
+                className="hover:cursor-pointer dark:bg-navbg bg-lime-700 hover:text-white text-logobg transform duration-75"
+                activeClass="active" 
+                to="blog" 
+                spy={true} 
+                smooth={true} 
+                offset={50} 
+                duration={500} 
+                spyThrottle={500}
+            >
+                Blog
+            </Link>
             </div>
             <div>
                 <button onClick={()=>{setMenu((e)=>(!e))}} className=" sm:hidden flex">
@@ -46,7 +70,19 @@ const Navbar = () => {
         {menu && (
           <div 
           className={` ${menu && "motion-preset-expand" || !menu && "motion-opacity-out-0"}  left-48 bg-opacity- w-32 text-center justify-self-end flex flex-col gap-2 overflow-hidden transition-all duration-500 ease-in-out p-4 m-3 mt-0.5 rounded-xl bg-lime-700 dark:bg-navbg text-white sm:hidden `}>
-            <a className="dark:bg-navbg bg-lime-700" href="#">About me</a>
+            <Link 
+                activeClass="active" 
+                className="dark:bg-navbg bg-lime-700"
+                to="About me" 
+                spy={true} 
+                smooth={true} 
+                duration={500} 
+                offset={-90}
+                onClick={()=>setMenu((e)=>(!e))}
+
+            >
+                About Me
+            </Link>
             <Link 
                 activeClass="active" 
                 className="dark:bg-navbg bg-lime-700"
@@ -54,14 +90,38 @@ const Navbar = () => {
                 spy={true} 
                 smooth={true} 
                 duration={500} 
-                offset={-160}
+                offset={-90}
                 onClick={()=>setMenu((e)=>(!e))}
 
             >
                 Projects
             </Link>
-            <a className="dark:bg-navbg bg-lime-700" href="#">Contact</a>
-            <a className="dark:bg-navbg bg-lime-700" href="#">Blog</a>
+            <Link 
+                activeClass="active" 
+                className="dark:bg-navbg bg-lime-700"
+                to="contact" 
+                spy={true} 
+                smooth={true} 
+                duration={800} 
+                offset={-90}
+                onClick={()=>setMenu((e)=>(!e))}
+
+            >
+                Contact
+            </Link>
+            <Link 
+                activeClass="active" 
+                className="dark:bg-navbg bg-lime-700"
+                to="blog" 
+                spy={true} 
+                smooth={true} 
+                duration={800} 
+                offset={-90}
+                onClick={()=>setMenu((e)=>(!e))}
+
+            >
+                Blog
+            </Link>
           </div>
         )}
             
@@ -71,4 +131,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar;8
