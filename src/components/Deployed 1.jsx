@@ -27,16 +27,17 @@ const Deployed = () => {
                 </div>
                 <div className="flex items-center m-2 flex-col pl-3 justify-center dark:text-logobg text text-allbg ">
                     <h2 className="text-center font-bold text-2xl underline p-3">Fitness tracking app</h2>
-                    <p className="text-center ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi ipsam exercitationem quis ullam rem. Doloribus quis, distinctio facilis commodi repudiandae nostrum praesentium esse omnis, eveniet ab eaque expedita debitis.
-                    Quod neque eligendi, eveniet recusandae labore culpa consequatur minus perspiciatis, facere assumenda architecto eaque deserunt molestias vitae. Vel magni quo consectetur voluptate consequatur laboriosam impedit vitae voluptates asperiores, ex autem.
-                    </p>
+                    <p className="text-center "><span className="font-semibold">Get Fit!</span> is a fitness tracking web application that empowers users to log their personal workouts and discover a wide variety
+                         of exercises using the Ninja API. Users can track their daily progress, monitor their fitness journey over time, and stay motivated with
+                         real-time updates and a clean, user-friendly interface.</p>
                 </div>
             </div>
             <div className="pl-3 sm:pl-10 border-gray-400 dark:border-gray-200 border rounded-3xl m-5 shadow-gray-500 shadow-md flex flex-col-reverse sm:grid grid-cols-2 p-10 ">
                  <div className="flex items-center justify-center m-2 flex-col dark:text-logobg pl-5 text text-allbg ">
                     <h2 className="font-bold text-2xl text-center p-3 underline">Recipe shearing platform</h2>
-                    <p className="text-center ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi ipsam exercitationem quis ullam rem. Doloribus quis, distinctio facilis commodi repudiandae nostrum praesentium esse omnis, eveniet ab eaque expedita debitis.
-                    Quod neque eligendi, eveniet recusandae labore culpa consequatur minus perspiciatis, facere assumenda architecto eaque deserunt molestias vitae. Vel magni quo consectetur voluptate consequatur laboriosam impedit vitae voluptates asperiores, ex autem.
+                    <p className="text-center ">Recipe Sharing Platform is a web application designed to showcase my skills in Tailwind CSS and React. It allows users to add and share their own recipes, including ingredients and detailed descriptions. The platform focuses on clean UI, responsive design, and smooth user interactions.
+
+
                     </p>
                 </div>
                 <div className="flex p-5 w-72 md:w-[80%] justify-center ">
@@ -51,12 +52,13 @@ const Deployed = () => {
             </div>
             <div className=" flex flex-col-reverse md:flex-row justify-between p-2 rounded-3xl">
                <div className="flex items-center justify-center flex-col border-gray-400 dark:border-gray-200 border rounded-3xl p-3 m-5 shadow-gray-500 shadow-md md:w-[40%] lg:w-[50%] dark:text-logobg"> 
-                    <p className="text-center ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi ipsam exercitationem quis ullam rem. Doloribus quis, distinctio facilis commodi repudiandae nostrum praesentium esse omnis, eveniet ab eaque expedita debitis.
-                    Quod neque eligendi, eveniet recusandae labore culpa consequatur minus perspiciatis, facere assumenda architecto eaque deserunt molestias vitae. Vel magni quo consectetur voluptate consequatur laboriosam impedit vitae voluptates asperiores, ex autem.
+                    <p className="text-center ">I developed multiple React applications, including a To-Do App, Weather App, GitHub User Search, and Fitness Tracker, emphasizing user 
+                        interaction, responsiveness, and real-time data handling. I used libraries like Axios for API requests, Tailwind CSS for styling, Recharts for data
+                         visualization, and integrated third-party APIs such as OpenWeather, GitHub, and WGER for dynamic content. You will find those and more in my Git hub repo link below.
                     </p>
-                                        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Estif-Gi" target="_blank" rel="noopener noreferrer">
 
-                    <IoLogoGithub className="text-black dark:text-gray-300 " size={50} />
+                    <IoLogoGithub className="text-black dark:text-gray-300 mt-10" size={50} />
                     </a>
                 </div>
                 <div className="flex p-2 gap-3">
