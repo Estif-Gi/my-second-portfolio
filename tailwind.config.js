@@ -9,7 +9,8 @@ export default {
         "logobg" : "#D9D9D9",
         "navbg" :"#5F5D5D",
         "allbg" :"#403F3F",
-        "tx" : "#BBB6B6"
+        "tx" : "#BBB6B6",
+        "new": "#fc350b"
       },
       
 

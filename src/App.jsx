@@ -3,7 +3,7 @@ import Exp from './components/ThemeToggle'
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './page/Home'
-import Deployed from './components/Deployed 1'
+import Deployed from './components/Deployed'
 import Contact from './page/Contact'
 import AboutMe from './page/AboutMe'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

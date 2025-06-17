@@ -1,5 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
-
+import {useMemo, useState } from "react";
 const Theme = () => {
   const [isDark, setIsDark] = useState(() => {
     const theme = localStorage.getItem("theme");
@@ -31,7 +30,7 @@ const Theme = () => {
         <div className="hidden  md:flex justify-center">
 
         <img src="../../images/down icon.png" 
-              className="w-28 -translate-y-12 motion-preset-oscillate motion-duration-1500" 
+              className="w-24 -translate-y-12 motion-preset-oscillate motion-duration-1500" 
               alt="down" />
         </div>
         <img

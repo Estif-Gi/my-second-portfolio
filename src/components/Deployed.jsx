@@ -19,9 +19,9 @@ const Deployed = () => {
                 <div className="flex p-5 pl-0 w-72 md:w-[80%] justify-center ">
                     <a href="https://fe-capstone-project-fitness-tracker-w2v9.vercel.app/"
                         target="_brake"
-                    >
+                    ><p className="hidden">hover:scale-95 ease-in-out transition duration-200 rounded-3xl min-w-72</p>
                             <img 
-                            className=" hover:scale-95 ease-in-out transition duration-200 rounded-3xl min-w-72"
+                            className="rounded-xl hover:rotate-2 hover:-translate-y-3 hover:scale-105 shadow-black/40 dark:shadow-white/40 hover:shadow-2xl hover:shadow-black/60 transition-all duration-2000 ease-out min-w-72 "
                             src="..\..\images\deployed 1.png" alt="" />
                     </a>
                 </div>
@@ -45,7 +45,7 @@ const Deployed = () => {
                         target="_brake"
                         >
                             <img 
-                            className=" hover:scale-95 transition duration-200 rounded-3xl min-w-72"
+                            className=" rounded-xl hover:rotate-2 hover:-translate-y-3 hover:scale-105 shadow-black/40 hover:shadow-2xl hover:shadow-black/60 transition-all duration-2000 ease-out min-w-72 dark:shadow-white/40"
                             src="\images\deployed 2.png" alt="" />
                     </a>
                 </div>
@@ -69,6 +69,7 @@ const Deployed = () => {
                         src="/images/weather 2.png"
                         className=" object-cover w-[450px]  rounded-xl snap-start shrink-0 hover:opacity-85 transition duration-200 ease-in-out"
                         alt=""
+                        loading="lazy"
                         />
                         <img
                         src="/images/form handling.png"
