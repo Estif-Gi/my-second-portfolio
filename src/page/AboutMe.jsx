@@ -10,7 +10,7 @@ const AboutMe = () => {
         >
           About Me
         </h1>
-        <div className="hover:-translate-y-2 border-gray-400 dark:border-gray-200 border rounded-3xl m-5 shadow-gray-500 shadow-md p-10 flex self-center justify-self-center lg:w-[80%]">
+        <div className="hover:-translate-y-4 transition-all duration-150 border-gray-400 dark:border-gray-200 border rounded-3xl m-5 shadow-gray-500 shadow-md p-10 flex self-center justify-self-center lg:w-[80%]">
           <p className="dark:text-logobg text-center lg:text-lg">
             <span className="font-semibold ">
               Hello! I'm Estifanos Girma, a Junior Front-End Web Developer with

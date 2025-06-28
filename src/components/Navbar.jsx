@@ -4,12 +4,14 @@ const Navbar = () => {
 
     const [menu , setMenu] = useState(false);
     // console.log(menu)
+   
   return (
     <>
-        <nav className="p-2">
-        <div className="m-3 sm:m-5 h-16 flex justify-between items-center p-5 dark:bg-navbg rounded-xl shadow bg-lime-700 ">
+        
+        <nav className="">
+        <div className="m-3 sm:m-5 h-16 flex justify-between items-center p-5 dark:bg-navbg rounded-xl shadow bg-lime-700">
 
-            <h1 className="  rounded-xl pt-2 pb-2 pl-5 pr-5 dark:bg-logobg sm:text-lg md:text-2xl font-bold text-gray-900 dark:text- bg-lime-200">Est.G</h1>
+            <h1 className="  rounded-xl pt-2 pb-2 pl-5 pr-5 dark:bg-logobg sm:text-lg md:text-2xl font-bold text-gray-900 dark:text- bg-lime-200 p-2 ">Est.G</h1>
             <div className="translate-x-24 hidden text-white bg-lime-700 dark:bg-navbg text-sm sm:flex md:text-xl sm:text-lg justify-between gap-3 sm:w-[50%]">
             <Link 
                 className="hover:cursor-pointer dark:bg-navbg bg-lime-700 hover:text-white text-logobg transform duration-75"
