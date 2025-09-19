@@ -11,7 +11,7 @@ const AboutMe = () => {
         <h1 className=" absolute flex justify-self-center self-center top-14 text-center md:p-20 md:pb-10 pt-28 text-3xl sm:text-5xl font-bold text-allbg dark:text-logobg">
           About Me
         </h1>
-        <div className={`transition-all duration-700 border-gray-400 dark:border-gray-200 border rounded-3xl m-5 shadow-gray-500 shadow-md p-10 flex self-center justify-self-center lg:w-[80%] ${scrollY >= 617.5999755859375 ? "motion-translate-x-in-[0%] motion-translate-y-in-[-57%] motion-opacity-in-[65%] motion-blur-in-[15px] motion-duration-[0.16s]/opacity motion-delay-[0.84s]/opacity motion-duration-[0.72s]/blur motion-delay-[0.03s]/blur": "hidden"}`}>
+        <div className={`transition-all duration-700 border-gray-400 dark:border-gray-200 border rounded-3xl m-5 shadow-gray-500 shadow-md p-10 flex self-center justify-self-center lg:w-[80%] ${scrollY >= 500? "motion-translate-x-in-[0%] motion-translate-y-in-[-57%] motion-opacity-in-[65%] motion-blur-in-[15px] motion-duration-[0.16s]/opacity motion-delay-[0.84s]/opacity motion-duration-[0.72s]/blur motion-delay-[0.03s]/blur": "hidden"}`}>
           <p className="dark:text-logobg text-center lg:text-lg">
             <span className="font-semibold ">
               Hello! I'm Estifanos Girma, a Front-End Web Developer passionate
