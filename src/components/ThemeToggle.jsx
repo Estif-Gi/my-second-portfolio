@@ -34,7 +34,7 @@ const Theme = () => {
               alt="down" />
         </div>
         <img
-          className="w-full bg-yellow-50 translate-y-12"
+          className="w-full bg-yellow-50 translate-y-12 z-10 relative"
           src={`/images/${img}.png`}
           alt="Zigzag"
         />
