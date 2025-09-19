@@ -17,16 +17,16 @@ const Deployed = () => {
                 <h1 id="Projects" className=" text-center  md:p-20 md:pb-10 pt-28 text-3xl sm:text-5xl font-bold text-allbg dark:text-logobg">Projects</h1>
             <div className="border-gray-400 dark:border-gray-200 pl-5 sm:pl-10 border rounded-3xl m-5 shadow-gray-500 shadow-md flex flex-col sm:grid grid-cols-2 p-10  pt-5 ">
                 <div className="flex p-5 pl-0 w-72 md:w-[80%] justify-center ">
-                    <a href="https://fe-capstone-project-fitness-tracker-w2v9.vercel.app/"
+                    <a href="https://gym-web-wine.vercel.app/"
                         target="_brake"
                     ><p className="hidden">hover:scale-95 ease-in-out transition duration-200 rounded-3xl min-w-72</p>
                             <img 
                             className="rounded-xl hover:rotate-2 hover:-translate-y-3 hover:scale-105 shadow-black/40 dark:shadow-white/40 hover:shadow-2xl hover:shadow-black/60 transition-all duration-2000 ease-out min-w-72 "
-                            src="..\..\images\deployed 1.png" alt="" />
+                            src="..\..\images\gymWeb(1).png" alt="" />
                     </a>
                 </div>
                 <div className="flex items-center m-2 flex-col pl-3 justify-center dark:text-logobg text text-allbg ">
-                    <h2 className="text-center font-bold text-2xl underline p-3">Fitness tracking app</h2>
+                    <h2 className="text-center font-bold text-2xl underline p-3">Fitness app</h2>
                     <p className="text-center "><span className="font-semibold">Get Fit!</span> is a fitness tracking web application that empowers users to log their personal workouts and discover a wide variety
                          of exercises using the Ninja API. Users can track their daily progress, monitor their fitness journey over time, and stay motivated with
                          real-time updates and a clean, user-friendly interface.</p>
